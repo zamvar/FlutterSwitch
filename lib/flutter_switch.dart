@@ -392,14 +392,14 @@ class _FlutterSwitchState extends State<FlutterSwitch>
                                 children: [
                                   Center(
                                     child: AnimatedOpacity(
-                                      opacity: widget.value ? 1.0 : 0.0,
+                                      opacity: widget.value ? 1.0 : 0.8,
                                       duration: widget.duration,
                                       child: widget.activeIcon,
                                     ),
                                   ),
                                   Center(
                                     child: AnimatedOpacity(
-                                      opacity: !widget.value ? 1.0 : 0.0,
+                                      opacity: !widget.value ? 1.0 : 0.8,
                                       duration: widget.duration,
                                       child: widget.inactiveIcon,
                                     ),
