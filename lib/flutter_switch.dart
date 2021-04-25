@@ -361,7 +361,7 @@ class _FlutterSwitchState extends State<FlutterSwitch>
                       ),
                     ),
                     Align(
-                      alignment: Alignment.centerLeft,
+                      alignment: Alignment.centerRight,
                       child: AnimatedOpacity(
                         opacity: !widget.value ? 1.0 : 0.0,
                         duration: widget.duration,
