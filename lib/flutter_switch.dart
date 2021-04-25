@@ -367,7 +367,7 @@ class _FlutterSwitchState extends State<FlutterSwitch>
                         duration: widget.duration,
                         child: Container(
                           width: _textSpace,
-                          padding: EdgeInsets.symmetric(horizontal: 16),
+                          padding: EdgeInsets.symmetric(horizontal: 8),
                           alignment: Alignment.centerLeft,
 //                           child: _inactiveText,
                              child: widget.activeIcon,
